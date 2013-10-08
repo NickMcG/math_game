@@ -1,0 +1,30 @@
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.carousel-indicators .active {
+    background-color: rgba(125, 125, 125, 0);
+}
+
+.smallBuffer {
+    margin-top: 15px;
+}
+
+.buffer {
+    margin-top: 50px;
+}
+
+.unchecked {
+    background-color: #DDD;
+    height: 20px;
+}
+
+.correct {
+	background-color: #00FF00;
+    height: 20px;
+}
+
+.incorrect {
+	background-color: #FF0000;
+    height: 20px;
+}

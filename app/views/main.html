@@ -1,0 +1,25 @@
+<div class="smallBuffer" />
+
+<div class="row">
+    <button class="btn" ng-click="openConfig()">Configure</button>
+</div>
+
+<div class="buffer" />
+<div class="row">
+    <carousel>
+        <slide ng-repeat="prob in problems" active="prob.active">
+            <div class="span2" />
+            <div class="span1"><h4>{{ $index + 1 }} of {{ problems.length }}</h4></div>
+            <div class="span5" x-math-problem definition="prob" style="margin:auto;" />
+        </slide>
+    </carousel>
+</div>
+
+<div class="buffer" />
+<div class="row">
+    <span class="offset4 span3" x-calc-keypad></span>
+</div>
+<!--<div class="row" ng-repeat="prob in problems">
+    <span class="span5" x-math-problem min-answer="minAnswer" max-answer="maxAnswer"
+         min-item="minItem" max-item="maxItem" definition="prob" />
+</div>-->

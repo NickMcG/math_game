@@ -1,0 +1,28 @@
+<table class="table">
+    <tr>
+        <td><button class="btn btn-primary" ng-click="$emit('keypadNumber', 1)">1</button></td>
+        <td><button class="btn btn-primary" ng-click="$emit('keypadNumber', 2)">2</button></td>
+        <td><button class="btn btn-primary" ng-click="$emit('keypadNumber', 3)">3</button></td>
+    </tr>
+    <tr>
+        <td><button class="btn btn-primary" ng-click="$emit('keypadNumber', 4)">4</button></td>
+        <td><button class="btn btn-primary" ng-click="$emit('keypadNumber', 5)">5</button></td>
+        <td><button class="btn btn-primary" ng-click="$emit('keypadNumber', 6)">6</button></td>
+    </tr>
+    <tr>
+        <td><button class="btn btn-primary" ng-click="$emit('keypadNumber', 7)">7</button></td>
+        <td><button class="btn btn-primary" ng-click="$emit('keypadNumber', 8)">8</button></td>
+        <td><button class="btn btn-primary" ng-click="$emit('keypadNumber', 9)">9</button></td>
+    </tr>
+    <tr>
+        <td />
+        <td><button class="btn btn-primary" ng-click="$emit('keypadNumber', 0)">0</button></td>
+        <td />
+    </tr>
+    <tr>
+        <td colspan="3">
+            <button class="btn btn-default" ng-click="$emit('keypadClear')">Clear</button>
+            <button class="btn btn-default" ng-click="$emit('keypadCheck')">Check</button>
+        </td>
+    </tr>
+</table>

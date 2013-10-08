@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <h3>Configuration</h3>
+</div>
+<div class="modal-body">
+    <div class="row">
+        <span class="offset1 span1">Min Answer: </span>
+        <span class="span1"><input type="number" class="input-small" ng-model="cfg.minAnswer" /></span>
+    </div>
+    <div class="row">
+        <span class="offset1 span1">Max Answer: </span>
+        <span class="span1"><input type="number" class="input-small" ng-model="cfg.maxAnswer" /></span>
+    </div>
+    <div class="row">
+        <span class="offset1 span1">Min Item: </span>
+        <span class="span1"><input type="number" class="input-small" ng-model="cfg.minItem" /></span>
+    </div>
+    <div class="row">
+        <span class="offset1 span1">Max Item: </span>
+        <span class="span1"><input type="number" class="input-small" ng-model="cfg.maxItem" /></span>
+    </div>
+    <div class="row">
+        <span class="offset1 span1"># of problems: </span>
+        <span class="span1"><input type="number" class="input-small" ng-model="cfg.numberProbs" /></span>
+    </div>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="ok()">OK</button>
+    <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+</div>

@@ -1,0 +1,16 @@
+<table class="table">
+    <tr>
+        <td />
+        <td>{{ definition.item1 }}</td>
+    </tr>
+    <tr>
+        <td>+</td>
+        <td>{{ definition.item2 }}</td>
+    </tr>
+    <tr>
+        <td ng-class="{ 'unchecked': definition.unchecked, 'correct': definition.correct, 'incorrect': definition.incorrect }" />
+        <td ng-class="{ 'unchecked': definition.unchecked, 'correct': definition.correct, 'incorrect': definition.incorrect }">
+            {{ definition.guess }}
+        </td>
+    </tr>
+</table>
